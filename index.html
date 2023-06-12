@@ -1,166 +1,206 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title> JohnnieIsland </title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title> Dun Dunn Dunn! </title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-
-	<!-- Add Icon Library -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-<body>
-
-	<!-- Start Of Container -->
-	<div class="container">
-
-	<!-- Intro Title Page -->
-	<div class="splash" id="home">
-	<section class="intro" id="home">
-
-		<nav class="nav_enter">
-			<p>
-				<ul class="wrapper-sp">
-					<a href="#about">
-					<li class="icon arrow">
-				    		<span><i class="fa-solid fa-down-long"></i></span>
-
-				  	</li>
-				  	</a>
-				</ul>
-			</p>
-		</nav>
-	</section>
-	</div>
-
-	<!-- Nav Bar-->
-	<div class="nav_sticky_header" id="nav_sticky_header">
-		<nav class="nav_links">
-			<ul>
-				<!-- (Insert Optional Logo Here ) -->
-				<!-- <li><a href="#home" class="menuItem">Home</a></li> -->
-				<li><a href="#about" class="menuItem">About</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#social-menu-l">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
-
-	<!-- About Me -->
-	<section class="aboutme" id="about">
-		<div class="aboutCard">
-			<div class="row">
-				<div class="aboutInfo">
-					<h2 class="text-center">Johnny Huynh.</h2>
-					<p>Hola!  Software engineer with experience in creating full stack websites and mobile applications.  I have created online store replicas, personal portfolios and a variety of mobile applications.  Currently focused on the iOS platform and am motivated to stay up with the latest trends and technologies in the industry.  I strive to make the best possible products for my clients!  Located in the Bay Area.
-					<br>
-					<p></p>
+	<body>
+		<div class="container">
+			<div class="nav-sticky-header" id="nav-sticky-header">
+				<div class="nav-logo">
+					<h2>J!</h2>
 				</div>
-				<div class="aboutImg">
-					<div class="img-wrap">
-						<img src="img/About/JP.jpg">
-					</div>
-				</div>
+				<a href="#" class="toggle-button">
+					<span class="bar"></span>
+				</a>
+				<nav class="nav-links">
+					<ul>
+						<li><a href="#banner-about">About</a></li>
+						<li><a href="#banner-proj">Projects</a></li>
+						<li><a href="#banner-cont">Contact</a></li>
+					</ul>
+				</nav>
 			</div>
-		</div>
-	</section>
 
-	<!-- Projects Title Page -->
-	<div class="pimg2">
-		<div class="ptext">
-		</div>
-	</div>
+			<div class="splash">
+				<h1 class="splash-h1">
+					Johnny Huynh.
+				</h1>
+				<h2 class="splash-h2">
+					iOS Developer.
+				</h2>
 
-	<!-- Projects -->
-	<section class="projectpage" id="projects">
-		<div class="projects-title">
-			<h2>Projects</h2>
-		</div>
-		<div class="projectDiv">
-			<div class="row">
-				<div class="card">
-					<img src="img/Project_Previews/dailyleaf.png">
-					<div class="info">
-						<h3>Daily Leaf</h3>
-						<p>Swift</p>
-						<p><button id="modalBtn1" class="btn">Learn More</button></p>
+				<p class="splash-p">
+					Transforming ideas into seamless experiences on iPhones, iPads and more.
+				</p>
+
+				<a href="#banner-cont" class="splash-button">CONTACT!</a>
+			</div>
+
+			<div class="banner" id="banner-about">
+				<div class="banner-title">ABOUT</div>
+			</div>
+			<hr class="card-hr">
+
+			<div class="card">
+					<div class="card-bg" id="card-bg-splash">
+						<div class="card-content" id="card-content-splash">
+							<picture>
+								<source
+									media="(max-width: 414px)"
+									srcset="img/mobile_about.jpg">
+								<img src="img/desktop_about.jpg">
+							</picture>							<a href="https://www.linkedin.com/in/huynhjohnnie" target="_blank" class="card-link" id="card-link-splash">
+								<div class="card-color-bg-splash"></div>
+								<div class="card-info">
+
+									<div class="card-desc" id="card-desc-splash">
+										<p>
+											Welcome!  I'm a passionate iOS software engineer based in San Jose, specializing in iOS development with a knack for web development.  I have been fortunate to work on a variety of exciting projects that have honed my skills and expanded my knowledge in both fields.
+											<br><br>
+											My journey in software engineering began with a deep fascination for iOS development.  Creating sleek, intuitive, and feature-rich applications for Apple devices has been my primary focus.  I take pride in crafting elegant user experiences, leveraging the latest technologies and frameworks, and adhering to industry best practices.  Whether it's building native iOS applications or working on cross-platform projects, I thrive on solving complex problems and transforming ideas into reality.
+											<br><br>
+											If you have an exciting project or collaboration in mind, I'd love to connect. Feel free to reach out and let's bring your ideas to life!
+										</p>
+									</div>
+
+								</div>
+							</a>
+						</div>
 					</div>
 				</div>
+
+			<div class="banner" id="banner-proj">
+				<div class="banner-title">PROJECTS</div>
+			</div>
+			<hr class="card-hr">
+
+			<div class="card_stack">
 
 				<div class="card">
-					<img src="img/Project_Previews/mangaweb.png">
-					<div class="info">
-						<h3>All Things Manga</h3>
-						<p>MySQL / Express / NodeJS</p>
-						<p><button id="modalBtn2" class="btn">Learn More</button></p>
+					<div class="card-bg">
+						<div class="card-content">
+							<picture>
+								<source
+									media="(max-width: 414px)"
+									srcset="img/mobile_p1.jpg">
+								<img src="img/desktop_p1.jpg">
+							</picture>
+							<a href="https://apps.apple.com/us/app/daily-leaf/id6445947088" target="_blank" class="card-link">
+								<div class="card-color-bg"></div>
+								<div class="card-info">
+									<div class="card-title">
+										<h2>Daily Leaf</h2>
+									</div>
+
+									<div class="card-tech">
+										<h3>Swift</h3>
+									</div>
+
+									<div class="card-desc">
+										<p>Featured on Apple's App Store, this iOS application offers users a clean and intuitive interface to access motivational quotes personalized to their schedule.</p>
+									</div>
+								</div>
+							</a>
+						</div>
 					</div>
 				</div>
 
 				<div class="card">
-					<img src="img/Project_Previews/weatherApp.png">
-					<div class="info">
-						<h3>WeatherMe</h3>
-						<p>Swift</p>
-						<p><p><button id="modalBtn3" class="btn">Learn More</button></p></p>
+					<div class="card-bg">
+						<div class="card-content">
+							<picture>
+								<source
+									media="(max-width: 414px)"
+									srcset="img/mobile_p2.jpg">
+								<img src="img/desktop_p2.jpg">
+							</picture>
+							<a href="https://github.com/JohnnieHuynh/All-Things-Manga" target="_blank" class="card-link">
+								<div class="card-color-bg2"></div>
+								<div class="card-info">
+									<div class="card-title">
+										<h2>All Things Manga</h2>
+									</div>
+
+									<div class="card-tech">
+										<h3>MySQL / Express / NodeJS</h3>
+									</div>
+
+									<div class="card-desc">
+										<p>Manga-centric online store replica full stack website allowing users to browse, shop, and add items to a cart, with the added convenience of user account creation.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-bg">
+						<div class="card-content">
+							<picture>
+								<source
+									media="(max-width: 414px)"
+									srcset="img/mobile_p3.jpg">
+								<img src="img/desktop_p3.jpg">
+							</picture>
+							<a href="https://github.com/JohnnieHuynh/WeatherMe" target="_blank" class="card-link">
+								<div class="card-color-bg3"></div>
+								<div class="card-info">
+									<div class="card-title">
+										<h2>WeatherMe</h2>
+									</div>
+
+									<div class="card-tech">
+										<h3>Swift</h3>
+									</div>
+
+									<div class="card-desc">
+										<p>Seamlessly delivering location-based weather information, this iOS application empowers users with real-time updates to make informed decisions and stay prepared.</p>
+									</div>
+								</div>
+							</a>
+						</div>
 					</div>
 				</div>
 
 			</div>
+
 		</div>
-	</section>
-
-	<!-- Modal for Projects -->
-	<div id="projectModal" class="modal">
-		<div class="modal-container">
-
-			<div class="modal-content">
-				<div class="modal-slidewshow">
-					<div class="mySlides">
-			      		<div class="numbertext">1 / 3</div>
-			     		<img id="modal-slide1" src="" width="600" height="450">
-			    	</div>
-			    	<div class="mySlides">
-			      		<div class="numbertext">2 / 3</div>
-			     		 <img id="modal-slide2"src="" width="600" height="450">
-			    	</div>
-			    	<div class="mySlides">
-			      		<div class="numbertext">3 / 3</div>
-			     		 <img id="modal-slide3" src="" width="600" height="450">
-			    	</div>
-
-			    	<!-- Next/previous controls -->
-			    	<div class="slide-controls">
-					    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-					    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-					</div>
-
-				</div>
-				<div class="modal-header">
-					<span class="closeBtn">&times;</span>
-					<h2 id="modal-title">Title Placeholder</h2>
-				</div>
-
-				<div class="modal-body">
-					<hr>
-					<p id="modal-body-info">Body Placeholder</p>
-				</div>
-
-				<div class="modal-footer">
-					<hr>
-					<a href="#" id="modal-footer-title" target="_blank">Footer Placeholder</a>
-				</div>
-			</div>
-		</div>
-
-	</div>
 
 	<!-- Contact -->
+	<div class="banner" id="banner-cont">
+		<div class="banner-title">CONTACT</div>
+	</div>
+	<hr class="card-hr">
+
+	<div class="card">
+		<div class="contact-title">Want to work together?</div>
+		<div class="card-form">
+			<form action="https://fabform.io/f/fpqfD5E" method="post">
+			  <input name="name" type="text" class="form-input" placeholder="Name" required>
+			  <br>
+			  <input name="email" type="email" class="form-input" placeholder="Email" required>
+			  <br>
+			  <textarea name="message" class="form-input" placeholder="Message" required></textarea>
+			  <br>
+			  <button class="button is-link" id="form-button" type="submit">SUBMIT</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="contact-section">
+	</div>
+
+	<hr class="card-hr">
 	<section class="social-menu" id="social-menu-l">
-		<h3 class="social-title">Connect</h3>
+		<h3 class="social-title"></h3>
 		<div class="wrapper-start">
 			<ul class="wrapper">
 				<a href="https://www.linkedin.com/in/huynhjohnnie" target="_blank">
@@ -192,35 +232,12 @@
 				</a>
 			</ul>
 			<div class="social-copyright">
-				<small>Copyright &copy; 2023 | Johnny Huynh</small>
+				<small><span style="color:#30A2FF">JOHNNY HUYNH </span> &copy; 2023 </small>
 			</div>
 		</div>
 	</section>
 
-	<!-- End of Container -->
-	</div>
-
-	<!-- Scripts -->
-	<script src="https://kit.fontawesome.com/50a43c8140.js" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="js/main.js"></script>
-
-</body>
+		<script src="https://kit.fontawesome.com/50a43c8140.js" crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
+	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Space Filler -->
