@@ -285,19 +285,19 @@ body {
 }
 
 .card-link:hover .card-color-bg-splash{
-	transform: scale(17);
+	transform: scale(22);
 }
 
 .card-link:hover .card-color-bg {
-	transform: scale(13);
+	transform: scale(22);
 }
 
 .card-link:hover .card-color-bg2 {
-	transform: scale(13);
+	transform: scale(22);
 }
 
 .card-link:hover .card-color-bg3 {
-	transform: scale(13);
+	transform: scale(22);
 }
 
 .card-color-bg-splash {
