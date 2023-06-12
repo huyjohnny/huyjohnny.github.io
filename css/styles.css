@@ -133,6 +133,7 @@ body {
 /* Splash Card */
 .splash {
 	margin: 0 auto;
+	margin-top: 17em;
 	width: 50%;
 	height: 30rem;
 	align-items: center;
@@ -560,6 +561,10 @@ body {
 
 	.nav-links.active {
 		left: 0;
+	}
+
+	.splash {
+		margin-top: 8.5rem;
 	}
 
 	.splash-h1 {
