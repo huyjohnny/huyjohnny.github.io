@@ -136,15 +136,14 @@ body {
 	margin-top: 17em;
 	width: 50%;
 	height: 30rem;
-	align-items: center;
 	color: white;
 	text-align: center;
 }
 
 .splash-h2 {
 	text-align: left;
-	color: #4ECCA3;
-	font-size: 3em;
+	color: #686D76;
+	font-size: 2em;
 	margin-top: .5rem;
 	margin-bottom: .5rem;
 }
@@ -208,21 +207,26 @@ body {
 }
 
 .card-bg {
-	width: 50%;
+	width: 100%;
 	min-width: 18em;
 	margin: 0 auto;
-	height: 30rem;
+	height: 40rem;
 	background-color: white;
 	padding: 1em;
+	border-radius: 7px;
+	box-shadow: 0px 15px 10px -15px #111;
+	transition: all 0.35s ease-in-out;
 }
 
-.card-content {
+.card-proj-img {
 	background-color: #27374D;
 	overflow: hidden;
 	width: 100%;
-	height: 28rem;
+	height: 25rem;
 	display: inline-block;
 	position: relative;
+	border-radius: 7px;
+	box-shadow: 0px 15px 10px -15px #111;
 }
 
 .card-content a:hover {
@@ -230,119 +234,66 @@ body {
 	padding-left: 1rem;
 }
 
-.card-content img {
+.card-proj-img img {
 	height: 100%;
 }
 
 .card-info {
 	text-align: left;
 	text-decoration: none;
-	padding-left: 1rem;
 	padding-right: 1.5rem;
+	position: relative;
 }
 
 .card-link {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	right: 0;
-	bottom: 0;
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+	width: 50%;
+}
+
+.card-link:hover .card-bg {
+	background-color: #9DB2BF;
+	transition: all 0.35s ease-in;
+}
+
+.card-link:hover .card-tech h4 {
+	background-color: #ADC4CE;
+	color: #686D76;
 }
 
 .card-title {
-	opacity: 0;
+	padding: .5em .2em;
+	font-size: 30;
+	color: #373A40;
+	margin-top: .8em;
+}
+
+.card-title-hr hr {
+	text-align: left;
+	margin-left: .15em;
+	color: #686D76;
 }
 
 .card-tech {
-	opacity: 0;
+	padding: .2em .2em;
+	color: #373A40;
+	position: relative;
+	display: flex;
+}
+
+.card-tech h4 {
+	background-color: #B5C0D0;
+	padding: .5em;
+	margin-top: .5em;
+	margin-right: .5em;
+	border-radius: .5em;
 }
 
 .card-desc {
-	opacity: 0;
-}
-
-.card-link:hover .card-title {
-	font-size: 30px;
-	color: white;
-	opacity: 1;
-	z-index: 2;
-	position: relative;
-}
-
-.card-link:hover .card-tech {
 	padding: .5em .2em;
-	color: white;
-	opacity: 1;
-	z-index: 2;
+	color: #686D76;
 	position: relative;
-}
-
-.card-link:hover .card-desc {
-	padding: .5em .2em;
-	color: white;
-	opacity: 1;
-	z-index: 2;
-	position: relative;
-}
-
-.card-link:hover .card-color-bg-splash{
-	transform: scale(28);
-}
-
-.card-link:hover .card-color-bg {
-	transform: scale(22);
-}
-
-.card-link:hover .card-color-bg2 {
-	transform: scale(22);
-}
-
-.card-link:hover .card-color-bg3 {
-	transform: scale(22);
-}
-
-.card-color-bg-splash {
-	background-color: #30A2FF;
-	position: relative;
-	height: 6rem;
-	width: 6rem;
-	top: -3em;
-	left: -3em;
-	border-radius: 50%;
-	transition: all .5s ease;
-}
-
-.card-color-bg {
-	background-color: #3ecd5e;
-	position: relative;
-	height: 128px;
-	width: 128px;
-	top: -3em;
-	left: -3em;
-	border-radius: 50%;
-	transition: all .5s ease;
-}
-
-.card-color-bg2 {
-	background-color: #e44002;
-	position: relative;
-	height: 128px;
-	width: 128px;
-	top: -3em;
-	left: -3em;
-	border-radius: 50%;
-	transition: all .5s ease;
-}
-
-.card-color-bg3 {
-	background-color: #952aff;
-	position: relative;
-	height: 128px;
-	width: 128px;
-	top: -3em;
-	left: -3em;
-	border-radius: 50%;
-	transition: all .5s ease;
 }
 
 .card-hr {
@@ -570,59 +521,64 @@ body {
 	.splash-h1 {
 		font-size: 2em;
 		margin-top: 7rem;
+		text-align: center;
 	}
 
 	.splash-h2 {
-		font-size: 2em;
+		font-size: 1em;
+		text-align: center;
 	}
 
 	.splash-p {
 		font-size: .8em;
+		display: none;
 	}
 
 	.splash-button {
 		width: 8em;
+		margin: 5em auto;
 	}
 
-	.card-link:hover .card-title {
-		color: #FFD369;
-		font-size: 1.1em;
+	.banner-title {
+		text-align: center;
+	}
+	.card {
+		width: 20%;
 	}
 
-	#card-bg-splash {
-		height: 43rem;
+	.card-desc {
+		font-size: .9em;
+		margin-top: .5em;
 	}
 
-	#card-content-splash {
+	.card-title {
+		font-size: .5em;
+	}
+
+	.card-tech h4 {
+		opacity: 0;
+	}
+
+	.contact-title {
+		position: absolute;
+		align-items: center;
+		width: 100%;
+	}
+
+	.card-hr {
+		width: 17rem;
+	}
+
+	.card-form {
+		display: none;
+	}
+
+	#card-contact-hr {
+		display: none;
+	}
+
+	#card-bg {
 		height: 41rem;
-	}
-
-	#card-link-splash {
-		font-size: .75em;
-	}
-
-	.card-color-bg-splash {
-		height: 5rem;
-		width: 5rem;
-	}
-
-	.card-link:hover .card-color-bg-splash{
-	transform: scale(19);
-}	
-
-	.card-color-bg {
-		height: 6rem;
-		width: 6rem;
-	}
-
-	.card-color-bg2 {
-		height: 6rem;
-		width: 6rem;
-	}
-
-	.card-color-bg3 {
-		height: 6rem;
-		width: 6rem;
 	}
 
 }
