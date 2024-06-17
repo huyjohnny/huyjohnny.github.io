@@ -2,246 +2,125 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title> JohnnieIsland </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+		<link rel="manifest" href="img/site.webmanifest">
+		<title> Johnnie Huynh </title>
 	</head>
 
 	<body>
-		<div class="container">
-			<div class="nav-sticky-header" id="nav-sticky-header">
-				<div class="nav-logo">
-					<h2>></h2>
-				</div>
-				<a href="#" class="toggle-button">
-					<span class="bar"></span>
-				</a>
-				<nav class="nav-links">
-					<ul>
-						<li><a href="#banner-about">About</a></li>
-						<li><a href="#banner-proj">Projects</a></li>
-						<li><a href="#banner-cont">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
 
-			<div class="splash">
-				<h1 class="splash-h1">
-					Johnny Huynh
-				</h1>
-				<h2 class="splash-h2">
-					iOS Developer
-				</h2>
-
-				<p class="splash-p">
-					Transforming ideas into seamless experiences on iPhones, iPads and more
-				</p>
-
-				<a href="#banner-cont" class="splash-button">CONTACT!</a>
-			</div>
-
-			<div class="banner" id="banner-about">
-				<div class="banner-title">ABOUT</div>
-			</div>
-			<hr class="card-hr">
-
-				<div class="card">
-					<a href="https://www.linkedin.com/in/huynhjohnnie" target="_blank" class="card-link">
-						<div class="card-bg">
-							<div class="card-proj-img">
-								<picture>
-									<source
-										media="(max-width: 414px)"
-										srcset="img/mobile_about.jpg">
-									<img src="img/desktop_about.jpg">
-								</picture>
+		<main>
+			<section class="padding-block-900">
+				<div class="container">
+					<div class="even-columns">
+						<div class="left-column">
+							<div class="flow">
+								<h1 class="fs-primary-heading fw-bold">
+									Johnny Huynh
+								</h1>
+								<h2>
+									iOS Software Engineer
+								</h2>
+								<p>I craft intuitive and high-performance iOS applications to enhance user experiences.</p>
+								<p>With a passion for both iOS and web development, I bring innovative solutions to life with precision and creativity.</p>
 							</div>
-							<div class="card-info">
-									<div class="card-desc">
-										Welcome!  As a passionate software engineer, I specialize in mobile app and web development.  My projects focus on delivering seamless user experiences through innovative and intuitive designs.  Explore my portfolio to see how I can help bring your ideas to life.
-										<br><br>
+							<div class="flow">
+								<nav class="primary-navigation">
+									<ul role="list" class="nav-links">
+										<li><a href="#">PROJECTS</a></li>
+										<li><a href="#">ABOUT</a></li>
+										<li><a href="#">CONTACT</a></li>
+									</ul>
+								</nav>
+							</div>
+							<section class="social-menu" id="social-menu-l">
+								<div class="wrapper-start">
+									<ul class="wrapper">
+										<a aria-label="linkedin" href="https://www.linkedin.com/in/huynhjohnnie" target="_blank">
+										  <li class="icon linkedin">
+										    <span class="tooltip">Linkedin</span>
+										    <span><i class="fa-brands fa-linkedin"></i></span>
+										  </li>
+									  	</a>
+
+										<a aria-label="github" href="http://www.github.com/JohnnieHuynh" target="_blank">
+										  <li class="icon github">
+										    <span class="tooltip">Github</span>
+										    <span><i class="fab fa-github"></i></span>
+										  </li>
+										</a>
+
+										<a aria-label="resume" href="docs/Johnny_Huynh_Resume.pdf" target="_blank">
+										  <li class="icon resume">
+										    <span class="tooltip">Resume</span>
+										    <span><i class="fa-solid fa-file"></i></span>
+										  </li>
+										</a>
+
+										<a aria-label="email" href="mailto: huy.j.huynh@gmail.com">
+										  <li class="icon envelope">
+										    <span class="tooltip">Email</span>
+										    <span><i class="fa-solid fa-envelope"></i></span>
+										  </li>
+										</a>
+									</ul>
+								</div>
+							</section>
+						</div>
+
+						<div class="right-column">
+							<ul class="flow" role="list">
+								<li class="card-link">
+									<a href="https://apps.apple.com/us/app/daily-leaf/id6445947088" target="_blank">
+									<div class="card | flow">
+									<h3 class="fs-600 fw-bold">Daily Leaf</h3>
+									<p>Featured on Apple's App Store, this iOS application offers users a clean and intuitive interface to access motivational quotes personalized to their schedule.</p>
 									</div>
+									</a>
+								</li>
+								<li class="card-link">
+									<a href="https://github.com/JohnnieHuynh/All-Things-Manga" target="_blank"> 
+									<div class="card | flow">
+									<h3 class="fs-600 fw-bold">All Things Manga</h3>
+									<p>Manga-centric online store replica full stack website allowing users to browse, shop, and add items to a cart, with the added convenience of user account creation.</p>
+									</div>
+									</a>
+								</li>
+								<li class="card-link">
+									<a href="https://github.com/JohnnieHuynh/WeatherMe" target="_blank">
+									<div class="card | flow">
+									<h3 class="fs-600 fw-bold">WeatherMe</h3>
+									<p>Seamlessly delivering location-based weather information, this iOS application empowers users with real-time updates to make informed decisions and stay prepared.</p>
+									</div>
+									</a>
+								</li>
+								<li class="card-link">
+									<a href="https://github.com/JohnnieHuynh/JohnnieHuynh.github.io" target="_blank">
+									<div class="card | flow">
+									<h3 class="fs-600 fw-bold">Johnnie's Portfolio</h3>
+									<p>Explore my dynamic portfolio showcasing my passion projects for iOS and web development.</p>
+									</div>
+									</a>
+								</li>
+							</ul>
+							<div class="social-copyright | flow">
+								<small><span style="color: white">JOHNNY HUYNH </span> &copy; 2024 </small>
 							</div>
 						</div>
-					</a>
+					</div>
 				</div>
+			</section>
 
-			<div class="banner" id="banner-proj">
-				<div class="banner-title">PROJECTS</div>
-			</div>
-			<hr class="card-hr">
-
-			<div class="card_stack">
-
-				<div class="card">
-					<a href="https://apps.apple.com/us/app/daily-leaf/id6445947088" target="_blank" class="card-link">
-						<div class="card-bg">
-							<div class="card-proj-img">
-								<picture>
-									<source
-										media="(max-width: 414px)"
-										srcset="img/mobile_p1.jpg">
-									<img src="img/desktop_p1.jpg">
-								</picture>
-							</div>
-							<div class="card-info">
-									<div class="card-title">
-										<h2>Daily Leaf</h2>
-									</div>
-
-									<div class="card-title-hr">
-										<hr>
-									</div>
-
-									<div class="card-desc">
-										<p>Featured on Apple's App Store, this iOS application offers users a clean and intuitive interface to access motivational quotes personalized to their schedule.</p>
-									</div>
-
-									<div class="card-tech">
-										<h4>Swift</h4>
-									</div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="card">
-					<a href="https://github.com/JohnnieHuynh/All-Things-Manga" target="_blank" class="card-link">
-						<div class="card-bg">
-							<div class="card-proj-img">
-								<picture>
-									<source
-										media="(max-width: 414px)"
-										srcset="img/mobile_p2.jpg">
-									<img src="img/desktop_p2.jpg">
-								</picture>
-							</div>
-							<div class="card-info">
-									<div class="card-title">
-										<h2>All Things Manga</h2>
-									</div>
-
-									<div class="card-title-hr">
-										<hr>
-									</div>
-
-									<div class="card-desc">
-										<p>Manga-centric online store replica full stack website allowing users to browse, shop, and add items to a cart, with the added convenience of user account creation.</p>
-									</div>
-
-									<div class="card-tech">
-										<h4>MySQL</h4>
-										<h4>Express</h4>
-										<h4>Node</h4>
-									</div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="card">
-					<a href="https://github.com/JohnnieHuynh/WeatherMe" target="_blank" class="card-link">
-						<div class="card-bg">
-							<div class="card-proj-img">
-								<picture>
-									<source
-										media="(max-width: 414px)"
-										srcset="img/mobile_p3.jpg">
-									<img src="img/desktop_p3.jpg">
-								</picture>
-							</div>
-							<div class="card-info">
-									<div class="card-title">
-										<h2>WeatherMe</h2>
-									</div>
-
-									<div class="card-title-hr">
-										<hr>
-									</div>
-
-									<div class="card-desc">
-										<p>Seamlessly delivering location-based weather information, this iOS application empowers users with real-time updates to make informed decisions and stay prepared.</p>
-									</div>
-
-									<div class="card-tech">
-										<h4>Swift</h4>
-									</div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-			</div>
-
-		</div>
-
-	<!-- Contact -->
-	<div class="banner" id="banner-cont">
-		<div class="banner-title">CONTACT</div>
-	</div>
-	<hr class="card-hr">
-
-	<div class="card">
-		<div class="contact-title">Want to work together?</div>
-		<div class="card-form">
-			<form action="https://fabform.io/f/fpqfD5E" method="post" target="_blank">
-			  <input name="name" type="text" class="form-input" placeholder="Name" required>
-			  <br>
-			  <input name="email" type="email" class="form-input" placeholder="Email" required>
-			  <br>
-			  <textarea name="message" class="form-input" placeholder="Message" required></textarea>
-			  <br>
-			  <button class="button is-link" id="form-button" type="submit">SUBMIT</button>
-			</form>
-		</div>
-	</div>
-
-	<div class="contact-section">
-	</div>
-
-	<hr class="card-hr" id="card-contact-hr">
-	<section class="social-menu" id="social-menu-l">
-		<h3 class="social-title"></h3>
-		<div class="wrapper-start">
-			<ul class="wrapper">
-				<a href="https://www.linkedin.com/in/huynhjohnnie" target="_blank">
-				  <li class="icon linkedin">
-				    <span class="tooltip">Linkedin</span>
-				    <span><i class="fa-brands fa-linkedin"></i></span>
-				  </li>
-			  	</a>
-
-				<a href="http://www.github.com/JohnnieHuynh" target="_blank">
-				  <li class="icon github">
-				    <span class="tooltip">Github</span>
-				    <span><i class="fab fa-github"></i></span>
-				  </li>
-				</a>
-
-				<a href="docs/Johnny_Huynh_Resume.pdf" target="_blank">
-				  <li class="icon resume">
-				    <span class="tooltip">Resume</span>
-				    <span><i class="fa-solid fa-file"></i></span>
-				  </li>
-				</a>
-
-				<a href="mailto: huy.j.huynh@gmail.com">
-				  <li class="icon envelope">
-				    <span class="tooltip">Email</span>
-				    <span><i class="fa-solid fa-envelope"></i></span>
-				  </li>
-				</a>
-			</ul>
-			<div class="social-copyright">
-				<small><span style="color:#30A2FF">JOHNNY HUYNH </span> &copy; 2024 </small>
-			</div>
-		</div>
-	</section>
-
-		<script src="https://kit.fontawesome.com/50a43c8140.js" crossorigin="anonymous"></script>
-		<script src="js/main.js"></script>
+			<script src="https://kit.fontawesome.com/50a43c8140.js" crossorigin="anonymous"></script>
+			<script src="js/main.js"></script>
+		</main>
 	</body>
+
 </html>
